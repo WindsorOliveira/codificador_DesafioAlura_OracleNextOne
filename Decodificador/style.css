@@ -1,0 +1,141 @@
+body{
+    background: #E5E5E5;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+   
+}
+
+.camposEsquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.areaTexto {
+    width: 100%;
+    height: 70%;
+    border: none;
+    background: #E5E5E5;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    outline: none;
+    
+}
+
+textarea::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+}
+
+.imagem2 {
+    width: 30%;
+    height: 3%;
+    
+}
+
+.camposEsquerdos-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    margin-top: 2%;
+        
+}
+
+.criptografar {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 3%;
+    border: none;
+    background: darkblue;
+    color: whitesmoke;
+    box-shadow: -5px 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.descriptografar {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -5px 5px 5px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.areaResposta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 85%;
+    margin-left: 8vh;
+    margin-top: -2%;
+    border-radius: 7%;
+    background: white;
+    border: none;
+    margin-right: 3%;
+}
+
+
+/*.retangulo{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    height: 90%;
+    width: 350px;
+}*/
+
+.imagem3 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 25%;
+    left: 74%;
+
+}
+
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-h3 {
+    position: absolute;
+    width: 15%;
+    text-align: center;
+    top: 65%;
+}
+
+.textos-p {
+    position: absolute;
+    width: 15%;
+    text-align: center;
+    top: 75%;
+    font-size: small;
+}
+
+.resposta {
+    width: 100%;
+    height: 70%;
+    border: none;
+    background: white;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    
+}
+
+.resposta:focus {
+    outline: none;
+}
